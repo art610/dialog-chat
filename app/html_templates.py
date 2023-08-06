@@ -1,4 +1,6 @@
 # -*- coding: UTF-8 -*-
+
+
 css = '''
 <style>
 .chat-message {

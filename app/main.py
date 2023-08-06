@@ -71,6 +71,12 @@ def main():
     st.set_page_config(page_title="Chat with me", page_icon=":books:",
                        layout="wide")
     st.header(os.environ.get("APP_NAME", "None"))
+    hide_streamlit_style = """
+                <style>
+                footer {visibility: hidden;}
+                </style>
+                """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
     st.write(css, unsafe_allow_html=True)
 
