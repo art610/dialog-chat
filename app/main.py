@@ -1,3 +1,5 @@
+import os
+
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
@@ -68,7 +70,7 @@ def handle_userinput(user_question):
 def main():
     st.set_page_config(page_title="Chat with me", page_icon=":books:",
                        layout="wide")
-    st.header("Chat with PDFs")
+    st.header(os.environ.get("APP_NAME", "None"))
 
     st.write(css, unsafe_allow_html=True)
 
