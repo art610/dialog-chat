@@ -5,5 +5,5 @@ enableWebsocketCompression=false
 
 [browser]
 serverPort='443'
-serverAddress='fsapi.ru'
+serverAddress='chat.dialog.guide'
 gatherUsageStats = false
