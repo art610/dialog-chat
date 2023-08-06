@@ -3,6 +3,4 @@ address = '0.0.0.0'
 port = '8501'
 
 [browser]
-serverPort='443'
-serverAddress='chat.dialog.guide'
 gatherUsageStats = false
