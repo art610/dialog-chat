@@ -4,5 +4,5 @@ port = '8501'
 
 [browser]
 serverPort='443'
-serverAddress='chat.dialog.guide'
+serverAddress='fsapi.ru'
 gatherUsageStats = false
