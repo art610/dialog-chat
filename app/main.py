@@ -68,9 +68,9 @@ def handle_userinput(user_question):
 
 
 def main():
-    st.set_page_config(page_title="Chat with me", page_icon=":books:",
+    st.set_page_config(page_title="PDF Chatbot", page_icon=":bookmark:",
                        layout="wide")
-    st.header(os.environ.get("APP_NAME", "None"))
+    st.header("PDF Chatbot")
     hide_streamlit_style = """
                 <style>
                 footer {visibility: hidden;}
